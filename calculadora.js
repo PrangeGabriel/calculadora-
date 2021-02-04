@@ -15,19 +15,3 @@ console.log(multiplica(2, -2))
 var divide = require('./dividir')
 console.log(divide(10, 3))
 
-//calculadora
-var inquirer = require('inquirer');
-inquirer
-  .prompt([
-    /* Pass your questions in here */
-  ])
-  .then(answers => {
-    // Use user feedback for... whatever!!
-  })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
